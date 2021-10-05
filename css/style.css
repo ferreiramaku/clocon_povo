@@ -1,9 +1,38 @@
 /* CSS Document */
-
 body::before {
     display: block;
     content: '';
-    height: 60px;
+    height: 70px;
+}
+
+.cor-fundo-1{
+    background-color: #548EC8;
+}
+
+.bg-fundo-2{
+    background-color: #002245;
+}
+
+.bg-fundo-3{
+    background-color:#97AABD;
+}
+
+.bg-fundo-4{
+    background-color: #72818F;
+}
+
+.bg-fundo-5{
+    background-color: #D7D3CC;
+}
+
+.decoration {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.decoration:hover {
+    text-decoration: none;
+    color:antiquewhite;
 }
 
 #map {
@@ -17,3 +46,20 @@ body::before {
         width: 50%;
     }
 }
+
+.btn-info{
+    background-color: #D7D3CC !important;
+}
+
+.btn-primary{
+    background-color: #548EC8 !important;
+}
+
+.marcador_escondido{
+    visibility:hidden;
+}
+
+.nav-hr{
+    border-bottom: 0.5px solid rgba(221, 221, 221, .2);
+}
+
